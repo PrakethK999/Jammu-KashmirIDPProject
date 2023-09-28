@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'ADLaM Display', cursive;
+    background-color: #003366;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*Menu Bar*/
+
+.menu-bar{
+    background-color:   #6CA6CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 2028;
+    height: 100px;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+}
+
+.menu-bar ul li::after{
+    content: '';
+    background-color: #003366;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active{
+    background-color:  #003366;
+    color: white;
+}
+
+.menu-bar ul li:hover{
+    color: #fff;
+}
+
+.menu-bar ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+    color: white;
+}
+.sub-menu{
+    display:none;
+}
+
+.menu-bar ul li:hover{
+    color: #fff;
+}
+
+.menu-bar ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+    color: white;
+}
+.imgaboutme{
+    margin-top: 100px;
+    margin-left: 18%;
+    transition: 0.8s;
+    width: 1301px;
+    height: 744px;
+}
+
+.imgaboutme:hover{
+    transform: scale(1.1);
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jammu and Kashmir : The World of Paradise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="2-Jammu.html"><i class="fa-solid fa-earth-asia"></i> Jammu</a></li>
+            <li><a href="2-Kashmir.html"><i class="fa-solid fa-earth-asia"></i> Kashmir</a></li>
+            <li><a href="3-About Myself.html"><i class="fa-solid fa-address-card"></i> About Me</a></li>
+        </ul>
+    </div>
+<div class="wholediv">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+           
+            <div class="swiper-slide"><img src="jkculture.jpg"><div class="centered">Festive Celebrations</div></div>
+            <div class="swiper-slide"><img src="jkclimate.jpg"><div class="centered">Himalayan Majesty</div></div>
+            <div class="swiper-slide"><img src="jkplaces.jpg"><div class="centered">Diverse Landscapes</div></div>
+            <div class="swiper-slide"><img src="jkcuisine.jpg"><div class="centered">Rich Cuisine</div></div>
+          </div>
+          
+        <div class="swiper-pagination"></div>
+      
+        <div class="swiper-button-next" style="margin-top: -30px; color: whitesmoke;"></div>
+        <div class="swiper-button-prev" style="color: whitesmoke;"></div>
+ </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+ <script>
+const swiper = new Swiper('.swiper', {
+
+    direction: 'horizontal',
+    loop: true,
+
+ pagination: {
+    el: '.swiper-pagination',
+},
+
+
+navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+}
+});
+ </script>
+ <div class="summary"><div class="sum"><div class="line"></div><p class="sumtitle"><u>Jammu and Kashmir</u></p><br>Jammu and Kashmir, known as the "Paradise on Earth," is a region with diverse landscapes, Himalayan mountains, serene valleys, and a blend of Hindu, Islamic, and Buddhist heritages. Its picturesque landscapes, historic cities like Srinagar and Jammu, and diverse cuisine reflect the region's cultural diversity.</div></div>
+</body>
+</html>

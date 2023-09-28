@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jammu and Kashmir : The World of Paradise</title>
+    <link rel="stylesheet" href="2-k.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="2-Jammu.html"><i class="fa-solid fa-earth-asia"></i> Jammu</a></li>
+            <li class="active"><a href="2-Kashmir.html"><i class="fa-solid fa-earth-asia"></i> Kashmir</a></li>
+            <li><a href="3-About Myself.html"><i class="fa-solid fa-address-card"></i> About Me</a></li>
+        </ul>
+    </div>
+<div class="wholediv">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+           
+            <div class="swiper-slide"><img src="2-jculture.jpeg" width="700px" height="626px"><div class="centered">Great Culture</div></div>
+            <div class="swiper-slide"><img src="2-jclimate.jpeg" width="700px" height="626px"><div class="centered">Cool Climate</div></div>
+            <div class="swiper-slide"><img src="2-kplaces.jpeg" width="700px" height="626px"><div class="centered">Amazing Places</div></div>
+            <div class="swiper-slide"><img src="2-kcuisine.jpeg" width="700px" height="626px"><div class="centered">Rich Cuisine</div></div>
+          </div>
+          
+        <div class="swiper-pagination"></div>
+      
+        <div class="swiper-button-next" style="margin-top: -30px; color: whitesmoke;"></div>
+        <div class="swiper-button-prev" style="color: whitesmoke;"></div>
+ </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+ <script>
+        const swiper = new Swiper('.swiper', {
+
+            direction: 'horizontal',
+            loop: true,
+
+         pagination: {
+            el: '.swiper-pagination',
+        },
+
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+        });
+</script>
+<div class="summary">
+    <div class="allDiv"><p class="title"><u>Kashmir Culture:</u></p>
+        Kashmir's culture is a blend of Hindu and Islamic influences, renowned for traditional handicrafts, including Pashmina shawls, and vibrant music and dance forms.</div>
+
+    <div class="allDiv"><p class="title"><u>Kashmir Climate:</u></p>
+        Kashmir experiences distinct seasons with mild, pleasant summers and cold, snowy winters, making it a sought-after destination for winter sports enthusiasts.</div>
+
+    <div class="allDiv"><p class="title"><u>Kashmir Places:</u></p>
+        Kashmir, often called "Paradise on Earth," features breathtaking destinations like Srinagar, Gulmarg, Pahalgam, and Sonmarg, each offering stunning natural beauty and picturesque landscapes.</div>
+
+    <div class="allDiv"><p class="title"><u>Kashmir Cuisine:</u></p>
+        Kashmiri cuisine boasts rich, aromatic flavors with signature dishes like Rogan Josh and Dum Aloo, infused with saffron and dried fruits for a unique taste.</div>
+</div>
+</body>
+</html>
